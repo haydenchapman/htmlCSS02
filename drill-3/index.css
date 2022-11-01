@@ -1,0 +1,55 @@
+header {
+    height: 100px;
+    background-color: #efefef;
+}  
+.logo {
+    background-color: #5b8fdc;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.bigtext {
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+#fixed{
+    position: relative;
+    width: 64px;
+    z-index: 1;
+}
+.footer{
+    float: right;
+    position: sticky;
+    right: 5%;
+    top:90%;
+    max-width: 100px;
+    z-index: 1;
+}
+.section-main {
+    background-color: #5b8fdc;
+    display: flex;
+    height: 200px;
+}
+  
+#section-1 {
+    background-color: #5b8fdc;
+    position: relative;
+}
+#section-2 {
+    background-color: #7be0c3;
+    position: relative;;
+}
+#section-3 {
+    background-color: #c2e791;
+    position: relative;
+}
+#section-4 {
+    background-color: #f5e752;
+    position: relative;
+}
+
